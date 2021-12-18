@@ -1,0 +1,209 @@
+body {
+  margin: 0px;
+}
+#free_ship {
+  height: 5vh;
+  text-align: center;
+  padding-top: 10px;
+  font-family: "Gotham 4r", Helvetica, Arial, sans-serif;
+  font-size: 14px;
+  letter-spacing: 0.5px;
+}
+#details {
+  font-size: 10px;
+  color: black;
+}
+#navbar {
+  display: grid;
+  grid-template-columns: 75% 25%;
+  height: 60px;
+  /* position: fixed; */
+}
+#icons {
+  display: grid;
+  grid-template-columns: repeat(3, auto);
+  grid-gap: 3%;
+  margin-left: 15px;
+  /* padding: 15px; */
+  
+}
+.material-icons {
+  font-size: 30px;
+  border-radius: 50%;
+  margin-left: 15px;
+  margin-top: 5px;
+}
+/* #each_icon {
+  border: 1px solid blue;
+} */
+.nav-text {
+  margin-left: 12px;
+  margin-top: 5px;
+  font-weight: bold;
+  font-family: "Gotham 5r", Helvetica, Arial, sans-serif;
+  font-size: 14px;
+}
+#check_out {
+  font-size: 27.5px;
+  border: 2.5px solid black;
+  border-radius: 50%;
+}
+#navbar .Logo {
+  width: 160px;
+  height: 25px;
+  color: yellow;
+  /* border: 1px solid green; */
+}
+#Search_bar {
+  width: 500px;
+  height: 40px;
+  border-radius: 5px;
+  font-size: 18px;
+  border: none;
+  letter-spacing: 0.5px;
+}
+#logo_search {
+  display: grid;
+  grid-template-columns: 20% 80%;
+  align-items: center;
+  margin-left: 10px;
+  margin-top: -15px;
+}
+#input {
+  border: 0.5px solid grey;
+  border-radius: 5px;
+  width: 505px;
+}
+#slideshow {
+  margin-top: 50px;
+  margin-bottom: 50px;
+}
+#slideshow img {
+  /* border: 1px solid red; */
+  width: 99%;
+}
+/* #brands {
+  border: 1px solid red;
+  
+} */
+#toys {
+  text-align: center;
+}
+/* #brand_logo {
+  border: 1px solid black; 
+  height: 100vh;
+} */
+#bg_green {
+  background-color: #3c7337;
+  /* height: 5vh; */
+  display: grid;
+  grid-template-columns: repeat(8, auto);
+  /* border: 1px solid blue; */
+}
+@keyframes animate__slideInUp2 {
+  0% {
+    transform: translateY(10px);
+  }
+  100% {
+    transform: translateY(0px);
+  }
+}
+
+#bg_green :hover {
+  animation: animate__slideInUp2 0.5s ease-in;
+}
+
+#bg_green #image img {
+  width: 150px;
+  height: 20vh;
+  border: 2px solid green;
+  border-radius: 50%;
+}
+#products {
+  /* border: 1px solid red; */
+  display: grid;
+  grid-template-columns: repeat(4, auto);
+  grid-gap: 1%;
+  margin: 80px 60px 100px 60px;
+}
+#products #each_div {
+  /* border: 1px solid black; */
+  height: 100%;
+  margin: auto;
+  text-align: center;
+}
+#products #each_div #price {
+  border: 1px solid green;
+  width: 90%;
+  margin: auto;
+  height: 15vh;
+  text-align: center;
+  background-color: #3c7337;
+  color: white;
+}
+#products #each_div #price h1 {
+  margin: 0px;
+  font-size: 34px;
+  margin-top: 5px;
+}
+#products #each_div #price #off {
+  margin-top: 25px;
+}
+
+#products #each_div #para {
+  /* border: 1px solid red; */
+  width: 90%;
+  height: 17vh;
+  margin: auto;
+  text-align: center;
+}
+#brands a {
+  color: black;
+  text-decoration: none;
+}
+#jewel img { 
+  width: 100%;
+  margin-bottom: 100px;
+}
+
+/* 
+#nav_btn {
+  text-align: center;
+  width: 80px;
+  height: 80px;
+  font-size: 16px; 
+  border: none;
+  background-color: white;
+  
+}
+
+
+#icon
+{
+    
+    margin-top: 10px;
+    text-align: center;
+    box-sizing: border-box;
+    font-size: 50px;
+    margin-right: 20px;
+} */
+/* .btn
+{
+    margin-left: 130px;
+
+}
+button
+{
+    border: none;
+    cursor: pointer;
+}
+button p
+{
+    font-size: 16px;
+} */
+
+
+#icon_a {
+  color: black;
+  text-decoration: none;
+}

@@ -1,0 +1,103 @@
+#filter {
+  border-bottom: 1px solid rgb(190, 189, 189);
+  display: grid;
+  grid-template-columns: 50% 50%;
+  height: 55px;
+  margin-top: -20px;
+}
+#depart {
+  /* border: 1px solid black; */
+  display: flex;
+  flex-direction: row;
+  gap: 15px;
+  font-weight: bold;
+  align-items: center;
+  vertical-align: middle;
+  text-align: center;
+}
+#help {
+  /* border: 1px solid green; */
+  display: flex;
+  flex-direction: row-reverse;
+  align-items: center;
+  vertical-align: middle;
+  gap: 15px;
+  padding-right: 55px;
+  text-align: center;
+  height: 50px;
+  margin-bottom: 10px;
+  font-weight: bold;
+}
+#help span {
+  font-size: 18px;
+  margin-right: 10px;
+}
+#depart span {
+  font-size: 18px;
+}
+
+/* ************************Gift************************* */
+
+#gift {
+  /* border: 3px solid red; */
+  height: 19.15vh;
+  margin-top: 40px;
+  width: 100%;
+}
+.bg-img {
+  /* position: relative;
+    top: 0;
+    left: 0; */
+  width: 100%;
+}
+#truck {
+  position: absolute;
+  top: 34.4%;
+  left: 1.5%;
+  width: 95%;
+  /* border: 2px solid blue; */
+  background-color: white;
+  /* align-items: center; */
+  text-align: center;
+  display: grid;
+  grid-template-columns: 30% 60%;
+  height: 9%;
+  vertical-align: middle;
+  padding: 15px;
+}
+.bg-img-truck {
+  width: 25%;
+  padding-left: 220px;
+}
+#free_shipping {
+  /* border: 1px solid red; */
+  display: grid;
+  grid-template-rows: none;
+  text-align: left;
+  font-size: 20px;
+  padding: 10px;
+  font-weight: bold;
+  letter-spacing: 0.5px;
+  /* font-family: monospace; */
+}
+.ship_quotes {
+  margin: 0;
+}
+#details {
+  font-size: 16px;
+  color: black;
+}
+#Off-Img {
+  margin-top: 50px;
+  /* border-right: 5px solid rgb(9, 94, 9); */
+}
+#off_img {
+  width: 100%;
+}
+#Coupon-Img {
+  margin-top: 30px;
+}
+#container {
+  display: flex;
+  flex-direction: column;
+}

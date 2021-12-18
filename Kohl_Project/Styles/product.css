@@ -1,0 +1,145 @@
+#coupon {
+    /* border: 1px solid red; */
+    /* height: 10vh; */
+    padding-top: 20px ;
+    margin: auto;
+    width: 70%;
+    padding-bottom: 20px;
+}
+#coupon img {
+    width: 100%;
+}
+#products {
+    /* border: 1px solid red; */
+    /* height: 100vh; */
+    display: grid;
+    grid-template-columns: 15% 50%;
+    grid-gap: 50px;
+    width: 100%;
+    margin-left: 0px;
+}
+#sec_1 {
+    /* border-right: 1px solid black; */
+    display: flex;
+    flex-direction: row;
+}
+#plus_icon {
+    /* border: 1px solid yellow; */
+    font-size: 10px;
+    /* margin-left: 100px; */
+}
+#filters {
+    /* border: 1px solid blue; */
+    width: 100%;
+    font-size: 14px;
+}
+#filters p {
+    /* border: 1px solid red; */
+    height: 4vh;
+    padding-left: 20px;
+    padding-top: 1vh;
+}
+#plus_icon p {
+    /* border: 1px solid red; */
+    height: 4vh;
+    padding-left: 20px;
+    padding-top: 1vh;
+    margin-top: 13px;
+}
+
+
+#sec_2 {
+    display: grid;
+    grid-template-columns: repeat(3, auto);
+    grid-gap: 20px;
+}
+
+/* #each_prod { */
+    /* border: 1px solid red;  */
+/* } */
+
+/* #each_prod #text-div {
+    border: 1px solid pink;
+} */
+#each_prod #text-div #price_cut {
+    /* border: 1px solid red; */
+    text-align: center;
+    
+}
+#each_prod #text-div #price_cut #red {
+    font-size: 24px;
+    color: red;
+}
+#each_prod #text-div #price_cut #sale {
+    color: red;
+    margin: 0px;
+    margin-bottom: -15px;
+}
+#each_prod #text-div #price_cut #sale2 {
+    font-size: 14px;
+}
+#each_prod #text-div #star {
+    /* border: 1px solid red; */
+    margin: 0px;
+    width: 300px;
+    /* font-size: 100px; */
+}
+#text_area #star {
+    /* font-size: 10px; */
+    text-align: left; 
+}
+.star {
+    font-size: 12px;
+}
+.plus {
+    font-size: 20px;
+}
+#text_area {
+    width: 60%;
+    margin: auto;
+    text-align: center;
+    /* border: 1px solid black; */
+}
+#add_cart {
+    /* border: 1px solid red; */
+    border-radius: 5px;
+    height: 6vh;
+    width: 70%;
+    margin-left: 15%;
+    margin-top: 3%;
+    font-size: 24px;
+
+}
+#add_cart button {
+    width: 100%;
+    height: 6vh;
+    cursor: pointer;
+}
+ 
+#all_prod {
+    display: grid;
+    /* grid-template-columns: repeat(3, 30%); */
+  }
+  #each_prod {
+    display: grid;
+    grid-template-columns: repeat(3, 30%);
+    text-align: center;
+    grid-gap: 10px;
+    /* border: 1px solid red; */
+  }
+  #text-div {
+    border: 1px solid black;
+    text-align: center;
+  }
+  #red {
+    border: 1px solid red;
+    color: red;
+    font-size: 24px;
+    margin-bottom: -10px;
+  }
+  #sale2 {
+    font-size: 14px;
+  }
+  #prod_name {
+    border: 1px solid red;
+  }

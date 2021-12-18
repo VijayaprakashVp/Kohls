@@ -1,0 +1,279 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Sale | Kohl's</title>
+    <link
+      href="https://fonts.googleapis.com/icon?family=Material+Icons"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="./Styles/navbar.css" />
+    <link rel="stylesheet" href="./Styles/Department.css" />
+    <link rel="stylesheet" href="./Styles/footer.css" />
+    <link rel="stylesheet" href="./Styles/signup.css" />
+    <link rel="stylesheet" href="./Styles/product.css" />
+  </head>
+  <body>
+    <div id="overall"></div>
+    <div id="departm"></div>
+
+    <div id="coupon">
+      <img
+        src="https://i.ibb.co/FqVtvpF/Screenshot-11.png"
+        alt="Screenshot-11"
+      />
+    </div>
+
+    <div id="products">
+      <div id="sec_1">
+        <div id="filters">
+          <p>Department</p>
+          <p>Gender</p>
+          <p>Brand</p>
+          <p>Size Range</p>
+          <p>Size</p>
+          <p>Material</p>
+          <p>Color</p>
+          <p>Price</p>
+          <p>Customer Rating</p>
+          <p>Age</p>
+        </div>
+        <div id="plus_icon">
+          <p><span class="material-icons plus"> add </span></p>
+          <p><span class="material-icons plus"> add </span></p>
+          <p><span class="material-icons plus"> add </span></p>
+          <p><span class="material-icons plus"> add </span></p>
+          <p><span class="material-icons plus"> add </span></p>
+          <p><span class="material-icons plus"> add </span></p>
+          <p><span class="material-icons plus"> add </span></p>
+          <p><span class="material-icons plus"> add </span></p>
+          <p><span class="material-icons plus"> add </span></p>
+          <p><span class="material-icons plus"> add </span></p>
+        </div>
+      </div>
+      <div id="sec_2">
+        <!-- start -->
+        <div id="all_prod">
+          <div id="each_prod">
+            
+          </div>
+        </div>
+        </div>
+      </div>
+    </div>
+
+    <div id="footers"></div>
+  </body>
+</html>
+<script type="module">
+  import navbar from "./compenents/navbar.js";
+  import footer from "./compenents/footer.js";
+  import department from "./compenents/department.js";
+
+  overall.innerHTML = navbar();
+  footers.innerHTML = footer();
+  departm.innerHTML = department();
+
+  function showProducts() {
+    let obj = [
+      {
+        name: "Sharper Image Thunder Tumbler RC Car",
+        img: "https://media.kohlsimg.com/is/image/kohls/3788493_Blue?wid=240&hei=240&op_sharpen=1",
+        price: "$10.49",
+        Regular_price: "Regular $14.99",
+      },
+      {
+        name: "Fisher-Price Laugh & Learn Click",
+        img: "https://media.kohlsimg.com/is/image/kohls/3385812?wid=240&hei=240&op_sharpen=1",
+        price: "$12.74",
+        Regular_price: "Regular $14.99",
+      },
+      {
+        name: "Sharper Image Thunder Tumbler RC Car",
+        img: "https://media.kohlsimg.com/is/image/kohls/4141250_ALT?wid=240&hei=240&op_sharpen=1",
+        price: "$5.94",
+        Regular_price: "Regular $6.99",
+      },
+      {
+        name: "Think Box Ultimate Science Kit for Kids",
+        img: "https://media.kohlsimg.com/is/image/kohls/5045158?wid=240&hei=240&op_sharpen=1",
+        price: "$24.99",
+        Regular_price: "Regular $49.99",
+      },
+      {
+        name: "Fisher-Price® Laugh & Learn® Magic Color",
+        img: "https://media.kohlsimg.com/is/image/kohls/4141332?wid=240&hei=240&op_sharpen=1",
+        price: "$16.99",
+        Regular_price: "Regular $19.99",
+      },
+      {
+        name: "Disney Dumbo Crib Toy",
+        img: "https://media.kohlsimg.com/is/image/kohls/1654954?wid=240&hei=240&op_sharpen=1",
+        price: "$15.00",
+        Regular_price: "Regular $20.00",
+      },
+      {
+        name: "Osmo STEM Genius Starter Kit for iPad with 5",
+        img: "https://media.kohlsimg.com/is/image/kohls/4615718?wid=240&hei=240&op_sharpen=1",
+        price: "$74.99",
+        Regular_price: "Regular $99.99",
+      },
+      {
+        name: "Sharper Image Thunder Tumbler RC Car",
+        img: "https://media.kohlsimg.com/is/image/kohls/3788493_Blue?wid=240&hei=240&op_sharpen=1",
+        price: "$10.49",
+        Regular_price: "Regular $14.99",
+      },
+      {
+        name: "Fisher-Price Laugh & Learn Click",
+        img: "https://media.kohlsimg.com/is/image/kohls/3385812?wid=240&hei=240&op_sharpen=1",
+        price: "$12.74",
+        Regular_price: "Regular $14.99",
+      },
+      {
+        name: "Sharper Image Thunder Tumbler RC Car",
+        img: "https://media.kohlsimg.com/is/image/kohls/4141250_ALT?wid=240&hei=240&op_sharpen=1",
+        price: "$5.94",
+        Regular_price: "Regular $6.99",
+      },
+      {
+        name: "Think Box Ultimate Science Kit for Kids",
+        img: "https://media.kohlsimg.com/is/image/kohls/5045158?wid=240&hei=240&op_sharpen=1",
+        price: "$24.99",
+        Regular_price: "Regular $49.99",
+      },
+      {
+        name: "Fisher-Price® Laugh & Learn® Magic Color",
+        img: "https://media.kohlsimg.com/is/image/kohls/4141332?wid=240&hei=240&op_sharpen=1",
+        price: "$16.99",
+        Regular_price: "Regular $19.99",
+      },
+      {
+        name: "Disney Dumbo Crib Toy",
+        img: "https://media.kohlsimg.com/is/image/kohls/1654954?wid=240&hei=240&op_sharpen=1",
+        price: "$15.00",
+        Regular_price: "Regular $20.00",
+      },
+      {
+        name: "Osmo STEM Genius Starter Kit for iPad with 5",
+        img: "https://media.kohlsimg.com/is/image/kohls/4615718?wid=240&hei=240&op_sharpen=1",
+        price: "$74.99",
+        Regular_price: "Regular $99.99",
+      },
+      {
+        name: "Sharper Image Thunder Tumbler RC Car",
+        img: "https://media.kohlsimg.com/is/image/kohls/3788493_Blue?wid=240&hei=240&op_sharpen=1",
+        price: "$10.49",
+        Regular_price: "Regular $14.99",
+      },
+      {
+        name: "Fisher-Price Laugh & Learn Click",
+        img: "https://media.kohlsimg.com/is/image/kohls/3385812?wid=240&hei=240&op_sharpen=1",
+        price: "$12.74",
+        Regular_price: "Regular $14.99",
+      },
+      {
+        name: "Sharper Image Thunder Tumbler RC Car",
+        img: "https://media.kohlsimg.com/is/image/kohls/4141250_ALT?wid=240&hei=240&op_sharpen=1",
+        price: "$5.94",
+        Regular_price: "Regular $6.99",
+      },
+      {
+        name: "Think Box Ultimate Science Kit for Kids",
+        img: "https://media.kohlsimg.com/is/image/kohls/5045158?wid=240&hei=240&op_sharpen=1",
+        price: "$24.99",
+        Regular_price: "Regular $49.99",
+      },
+      {
+        name: "Fisher-Price® Laugh & Learn® Magic Color",
+        img: "https://media.kohlsimg.com/is/image/kohls/4141332?wid=240&hei=240&op_sharpen=1",
+        price: "$16.99",
+        Regular_price: "Regular $19.99",
+      },
+      {
+        name: "Disney Dumbo Crib Toy",
+        img: "https://media.kohlsimg.com/is/image/kohls/1654954?wid=240&hei=240&op_sharpen=1",
+        price: "$15.00",
+        Regular_price: "Regular $20.00",
+      },
+      {
+        name: "Osmo STEM Genius Starter Kit for iPad with 5",
+        img: "https://media.kohlsimg.com/is/image/kohls/4615718?wid=240&hei=240&op_sharpen=1",
+        price: "$74.99",
+        Regular_price: "Regular $99.99",
+      }
+    ];
+
+    let parent = document.getElementById("all_prod");
+    let each_div = document.getElementById("each_prod");
+
+    obj.forEach(function (product) {
+      let div = document.createElement("div");
+
+      let image = document.createElement("img");
+      image.src = product.img;
+
+      let price = document.createElement("p");
+      price.textContent = "Sale " + product.price;
+      //   price.style.color = "red";
+      price.setAttribute(
+        "style",
+        "font-size : 20px ; color : red ; margin-bottom : -15px",
+      );
+
+      let regular_price = document.createElement("p");
+      regular_price.textContent = product.Regular_price;
+      regular_price.setAttribute(
+        "style",
+        "font-size : 12px ; margin-bottom : -10px",
+      );
+
+      let name = document.createElement("p");
+      name.textContent = product.name;
+
+      let addtocart_btn = document.createElement("button");
+      addtocart_btn.innerText = "Add to Cart";
+
+      addtocart_btn.onclick = function () {
+        addtoCart(product);
+      };
+
+      div.append(image, price, regular_price, name , addtocart_btn);
+      each_div.append(div);
+      parent.append(each_div);
+    });
+  }
+  showProducts();
+
+
+  if(localStorage.getItem("cart")=== null){
+    localStorage.setItem("cart", JSON.stringify([]));
+}
+
+
+  function addtoCart(p){
+    let products_cart = JSON.parse(localStorage.getItem("cart"));
+
+    console.log(products_cart)
+    for (let i = 0; i < products_cart.length; i++) {
+      if(products_cart[i].name == p.name){
+        window.location.href = "checkout.html"
+        return;
+      } 
+    }
+    alert("Successfully added to the cart");
+    products_cart.push(p);
+
+    localStorage.setItem("cart", JSON.stringify(products_cart));
+
+    console.log('products_cart:', products_cart)
+  }
+
+
+
+
+
+
+</script>

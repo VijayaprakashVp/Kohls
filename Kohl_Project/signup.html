@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Account</title>
+    <link
+      href="https://fonts.googleapis.com/icon?family=Material+Icons"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="./Styles/navbar.css" />
+    <link rel="stylesheet" href="./Styles/Department.css" />
+    <link rel="stylesheet" href="./Styles/footer.css" />
+    <link rel="stylesheet" href="./Styles/signup.css" />
+    <script src="./Scripts/signup.js"></script>
+  </head>
+  <body>
+    <div>
+      <div id="overall"></div>
+      <div id="departm"></div>
+
+      <div id="sign_Up">
+        <h3>Create Account</h3>
+        <p>
+          By creating an account, you agree to Kohl's
+          <a href="#" id="details">Security & Privacy Policy</a> and
+          <a href="#" id="details">Legal Notices.</a>
+        </p>
+
+        <div id="form">
+          <div>
+            <h4>First Name</h4>
+            <input type="text" id="F_name" />
+          </div>
+          <div>
+            <h4>Last Name</h4>
+            <input type="text" id="L_name" />
+          </div>
+          <div>
+            <h4>Email Address</h4>
+            <input type="email" id="email" placeholder="name@mail.com" />
+          </div>
+          <div>
+            <h4>Password</h4>
+            <input type="password" id="password" />
+          </div>
+          <div id="checkbox">
+            <div>
+              <input type="checkbox" name="" id="check" />
+              <span id="checbox"> <strong> Keep me signed in </strong></span>
+              <p id="sign_up_text">
+                Check this box to stay signed in on this device. Recommended for
+                devices that only you use.
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+      <hr id="line" />
+
+      <div id="rewards">
+        <div>
+          <img
+            src="https://www.kohls.com/account/media/42.0.0-682/images/loyaltyV2/kohls-rewards-horizontal.png"
+            alt=""
+          />
+          <span class="material-icons" id="Ques_mark"> help </span>
+        </div>
+        <div id="radio_btns">
+          <input type="radio" name="test" id="radio" value="1" />
+          <span>I signed up in store</span>
+          <input type="radio" name="test" id="radio" value="2" />
+          <span>Enroll Today!</span>
+          <input type="radio" name="test" id="radio" value="3" />
+          <span>No Thanks.</span>
+        </div>
+      </div>
+
+      <hr id="line" />
+
+      <div id="loop">
+        <div>
+          <p>
+            <strong>Stay in the loop + save 15% on your next purchase.</strong>
+          </p>
+        </div>
+        <div id="checkbox_US">
+          <div>
+            <input type="checkbox" name="" id="" />
+          </div>
+          <div id="text">
+            <p>
+              Yes, sign me up for emails that deliver our best deals and the
+              newest styles, including all the tips & tricks to make shopping
+              even easier.
+            </p>
+            <p>
+              <strong
+                >US Residents Only. Terms apply; see
+                <a href="#" id="details">details</a>.
+                <a href="#" id="details">Privacy Policy</a>.</strong
+              >
+            </p>
+          </div>
+        </div>
+        <div id="create">
+          <button onclick="signUp()"> CREATE ACCOUNT </button>
+          <!-- <div>CANCEL</div> -->
+        </div>
+      </div>
+      <div id="footers"></div>
+    </div>
+  </body>
+</html>
+
+<script type="module">
+  import navbar from "./compenents/navbar.js";
+  import footer from "./compenents/footer.js";
+  import department from "./compenents/department.js";
+
+  overall.innerHTML = navbar();
+  footers.innerHTML = footer();
+  departm.innerHTML = department();
+
+
+  
+</script>

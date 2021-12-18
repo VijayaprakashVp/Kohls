@@ -1,0 +1,147 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Checkout - Khols.com</title>
+    <link rel="stylesheet" href="./Styles/checkout.css" />
+    <link rel="stylesheet" href="./Styles/footer.css" />
+    <link rel="stylesheet" href="/Styles/navbar.css" />
+    <link rel="stylesheet" href="./Styles/Department.css" />
+    <!-- <script src="./Scripts/checkout.js"></script> -->
+  </head>
+  <body>
+    <!-- <div id="overall"></div> -->
+    <!-- <div id="departm"></div> -->
+    <div class="logo">
+      <span
+        ><img
+          src="https://www.kohls.com/cnc/media/41.0.0-913/images/new_checkout_ui/kohls-checkout-logo.png"
+          alt=""
+      /></span>
+      <span class="txt1">Checkout</span>
+    </div>
+    <div class="return">
+      <h2>< Return to cart</h2>
+    </div>
+    <div class="container">
+      <div class="box1">
+        <div>
+          <img
+            src="https://www.kohls.com/cnc/media/41.0.0-913/images/dgsImages/moving-truck.png"
+            alt=""
+          />
+        </div>
+        <div class="txt2">You are $15.01 from free standard shipping</div>
+        <div class="txt3">Offers for your cart</div>
+        <div>
+          <button class="btn">PLACE ORDER $20.08</button>
+          <div class="txt4">
+            By placing your order, you agree to Kohl's Legal Notices and Privacy
+            Policy.
+          </div>
+        </div>
+      </div>
+      <div class="box2"></div>
+      <div class="spans">
+        <div class="leftspan">
+          <div class="div1">
+            <span>You're saving $10.00</span>
+            <span class="hide">Hide order Summary</span>
+          </div>
+          <div class="txt5">How you've saved</div>
+          <div class="line1">
+            -------------------------------------------------------------------------------------------
+          </div>
+          <div class="pro_det" id="pro_det">
+            <div id="cart_place">
+              <div>
+                <img
+                  src="https://media.kohlsimg.com/is/image/kohls/3788493_Blue?wid=240&hei=240&op_sharpen=1"
+                  alt=""
+                />
+              </div>
+              <div>
+                <p>Sharper Image Thunder Tumbler RC Car</p>
+              </div>
+              <div><p>Sale $10.49</p></div>
+            </div>
+          </div>
+          <div class="txt5">What you’re paying for</div>
+          <div class="line1">
+            -------------------------------------------------------------------------------------------
+          </div>
+          <div class="top_margin">
+            <span>Items (1)</span> <span class="span1">$10.49</span>
+          </div>
+          <div class="top_margin1">
+            <span>Kohl's Cash & Offers</span> <span class="span2">-$0.00</span>
+          </div>
+          <div class="top_margin1">
+            <span>Shipping</span> <span class="span3">$8.95</span>
+          </div>
+          <div class="top_margin1">
+            <span>Estimated Tax, Surcharges & Fees</span>
+            <span class="span4">$1.14</span>
+          </div>
+          <div class="line1">
+            -------------------------------------------------------------------------------------------
+          </div>
+          <div class="top_margin1">
+            <span class="tot">Total</span> <span class="span5">$20.48</span>
+          </div>
+          <div class="save">You’re saving $10.00!</div>
+        </div>
+        <div class="rightspan">
+          <div id="card_details">
+            <h1 id="card">Cards Details</h1>
+
+            <div id="cards">
+              <h5>Cardholder Name</h5>
+
+              <input type="text" name="" id="" />
+
+              <h5>Card Number</h5>
+
+              <input type="number" name="" id="" />
+              <div>
+                <div>
+                  <h5>Expiration (MM/YY)</h5>
+                  <input type="text" />
+                </div>
+                <div>
+                  <h5>Security Code</h5>
+                  <input type="password" name="" id="" />
+                </div>
+              </div>
+
+              <div id="option">
+                <div id="done">DONE</div>
+                <div id="cancel">CANCEL</div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="btm-btn">
+        <button class="btn">PLACE ORDER $20.08</button>
+        <div class="txt4">
+          By placing your order, you agree to Kohl's Legal Notices and Privacy
+          Policy.
+        </div>
+      </div>
+    </div>
+
+    <div id="footers"></div>
+  </body>
+</html>
+<script type="module">
+  // import navbar from "./compenents/navbar.js";
+  import footer from "./compenents/footer.js";
+  //   import department from "./compenents/department.js";
+
+  //   overall.innerHTML = navbar();
+  footers.innerHTML = footer();
+  //   departm.innerHTML = department();
+</script>

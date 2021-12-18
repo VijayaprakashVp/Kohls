@@ -1,0 +1,47 @@
+#signin {
+  /* border: 1px solid red; */
+  height: 90vh;
+  width: 60%;
+  margin: auto;
+  display: grid;
+  grid-template-columns: repeat(2, 50%);
+  margin-top: 50px;
+  grid-gap: 2%;
+}
+#signin_div {
+  /* border: 1px solid black; */
+  width: 80%;
+}
+#signin_Text {
+  /* border: 1px solid red; */
+  font-size: 18px;
+}
+h4 {
+  font-size: 20px;
+}
+input {
+  /* border: 1px solid red; */
+  height: 5vh;
+  width: 80%;
+}
+#checkbox {
+  margin-left: -130px;
+  margin-top: 15px;
+}
+#sign_up_text {
+  margin-left: 130px;
+}
+#checbox {
+  margin-left: -100px;
+  margin-bottom: 5px;
+}
+
+button {
+  /* border: 1px solid red; */
+  height: 6vh;
+  width: 80%;
+  font-size: 24px;
+  color: white;
+  background-color: #95c96f;
+  cursor: pointer;
+}
